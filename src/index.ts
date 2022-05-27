@@ -5,7 +5,7 @@ import { paymentRouter } from "./router/Router";
 const app = express(); 
 
 app.use(express.json());
-//app.use("/users", userRouter); //AQUI ESTAMOS CHAMANDO A FUNÇÃO "USERROUTER", ONDE ESTA O ENDPOINT DE FATO
+//app.use("/users", userRouter);//AQUI ESTAMOS CHAMANDO A FUNÇÃO "USERROUTER", ONDE ESTA O ENDPOINT DE FATO
 app.use("/payment", paymentRouter)
 
 const server = app.listen(process.env.PORT || 3003, () => {
