@@ -13,13 +13,13 @@ Essa API seria apenas uma pequena parte do WIRECARD.</p>
 <p>Linguagens utilizadas: NODE e TYPESCRIPT.</p>
 <p>Possui testes Unitários: SIM.</p>
 <p>Possui Banco de Dados: SIM e utilizo a linguagem SQL para manipulação.</p>
-<p>Url base: http://localhost:3003</p>
+<p>Url base: https://arthurcase-1.herokuapp.com/</p>
 
 <h3>-Endpoint para pagamento com Cartão de Crédito</h3>
 
     Exemplo de requisição:</h5>
 
-    POST - http://localhost:3003/payment/card
+    POST - https://arthurcase-1.herokuapp.com/payment/card
 
     BODY REQUEST = {
         "nameBuyer":"joao mathias",
@@ -58,7 +58,7 @@ Essa API seria apenas uma pequena parte do WIRECARD.</p>
 
     Exemplo de requisição:
 
-    POST - http://localhost:3003/payment/slip
+    POST - https://arthurcase-1.herokuapp.com/payment/slip
 
     BODY REQUEST = {
         "nameBuyer":"joao lukas",
@@ -80,7 +80,7 @@ Essa API seria apenas uma pequena parte do WIRECARD.</p>
 
     Exemplo de requisição:
 
-    GET - http://localhost:3003/payment/card/:id
+    GET - https://arthurcase-1.herokuapp.com/payment/card/:id
 
     PARAMS / KEY = id / VALUE = 'id do pagamento'
 
@@ -99,7 +99,7 @@ Essa API seria apenas uma pequena parte do WIRECARD.</p>
 
     Exemplo de requisição:
 
-    GET - http://localhost:3003/payment/slip/:id
+    GET - https://arthurcase-1.herokuapp.com/payment/slip/:id
 
     PARAMS / KEY = id / VALUE = 'id do pagamento'
 
